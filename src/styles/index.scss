@@ -11,3 +11,169 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+* {
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  body {
+    width: 100vw;
+  }
+  
+  .App {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /*nav*/
+  
+  .nav {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+  
+  .whole-nav {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+  }
+  
+  .nav-left {
+    justify-content: flex-start;
+  
+    padding: 5px;
+    width: 100%;
+  
+    margin: 0;
+  }
+  
+  .nav-right {
+    justify-content: flex-end;
+    display: flex;
+  
+    margin: 0;
+  }
+  
+  .nav-right li {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .phone {
+    display: none;
+  }
+  
+  /*end nav */
+  
+  /*Jumbo */
+  
+  .jumbo {
+    width: 95%;
+    background-color: rgb(224, 224, 224);
+    margin: 10px auto;
+    height: 175px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .jumbo-h1 {
+    margin: 5px;
+  }
+  
+  .jumbo-p {
+    margin: 5px;
+  }
+  
+  .jumbo-btn {
+    margin: 5px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 110, 236);
+    border: none;
+    color: white;
+  }
+  
+  /* end Jumbo */
+  
+  /*Card */
+  
+  .card {
+    border: 1px solid rgb(199, 199, 199);
+    width: 225px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .card p {
+    padding: 10px;
+  }
+  
+  .pic {
+    height: 200px;
+    width: auto;
+    background-color: rgb(199, 199, 199);
+  }
+  .card button {
+    background-color: rgb(0, 110, 236);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  
+    border: none;
+  }
+  
+  .btn-background {
+    background-color: rgb(199, 199, 199);
+  
+    padding: 10px;
+  }
+  
+  /*footer*/
+  
+  .footer {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    i {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+  
+    .iClass {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 5px;
+    }
+    
+  
+    .responsive {
+      display: flex;
+      flex-direction: column;
+    }
+    .phone {
+      display: flex;
+    }
+  
+    .show {
+      display: none;
+    }
+  }
